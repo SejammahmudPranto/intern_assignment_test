@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.header_content {
+    width: 50%;
+}
+.header_content h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    justify-self: center;
+    padding-bottom: 50px;
+
+}
+
+.header_content_join{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 8%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_content button {
+    font-size: 20px;
+    font-style: Medium;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    font-weight: 500;
+}
+.header_content_demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_content_demo img {
+    margin-left: auto;
+    margin-right: 10px;
+}

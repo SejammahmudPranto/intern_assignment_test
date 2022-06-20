@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* navbar component */
+.logo {
+    margin-left: 10%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.nav_list li{
+    list-style-type: none;
+    margin: 0 20px;
+    font-weight: 400;
+}
+.login_getstarted {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+.login_getstarted p a {
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 20px;
+    color: #000000;
+}
+
+
+.login_getstarted button {
+    background-color: #000000;
+    width: 115px;
+    height: 28px;
+    color: #fff;
+    border-radius: 3px;
+}
+/* header component */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.header_content {
+    width: 50%;
+}
+.header_content h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    justify-self: center;
+    padding-bottom: 50px;
+
+}
+
+.header_content_join{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_content button {
+    font-size: 20px;
+    font-style: Medium;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    font-weight: 500;
+}
+.header_content_demo img {
+    margin-left: auto;
+    margin-right: 20px;
+}
