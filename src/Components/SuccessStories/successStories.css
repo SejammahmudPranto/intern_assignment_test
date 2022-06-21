@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4%;
 }
 
 .success-stories_p {
@@ -23,6 +24,6 @@
 
 .stories {
     display: flex;
-    gap: 4%;
+    gap: 5%;
     justify-content: space-around;
 }

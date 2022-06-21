@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import BecomePart from "./Components/becomePart/BecomePart";
 import Collaboration from "./Components/Collaboration/Collaboration";
 import Header from "./Components/header/Header";
 import Navbar from "./Components/navbar/Navbar";
@@ -14,6 +15,7 @@ const App = () => {
       <Story/>
       <Collaboration/>
       <SuccessStories/>
+      <BecomePart/>
     </div>
   );
 };

@@ -1,0 +1,12 @@
+.become-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.become-part h2 {
+    font-size: 48px;
+    font-weight: 800;
+}

@@ -5,6 +5,7 @@ import icon1 from "../../assets/iconAccount.png";
 import icon2 from "../../assets/iconBrand.png";
 import icon3 from "../../assets/iconTask.png";
 import icon4 from "../../assets/iconPaid.png";
+import InfluncerButton from '../InfluncerButton/InfluncerButton';
 
 const Collaboration = () => {
   return (
@@ -17,7 +18,7 @@ const Collaboration = () => {
                 <Steps image={icon3} alttext={"Task icon"} header={"Submit Tasks"} para={"After participating in a campaign, submit the report from your dashboard "}/>
                 <Steps image={icon4} alttext={"Paid icon"} header={"Get Paid!"} para={"After the Brand verifies your task, you will be paid  on the next disbursment date "}/>
             </div>
-            <button type='button'>Join as Influncer</button>
+            <InfluncerButton text={"Join as Influencer"}/>
     </div>
   )
 }
