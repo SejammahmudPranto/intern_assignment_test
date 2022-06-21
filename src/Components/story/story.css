@@ -1,0 +1,22 @@
+.story {
+  display: flex;
+  background-color: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+  height: 407px;
+}
+.story_img {
+  background-color: inherit;
+}
+.story_img img {
+  width: 431px;
+  height: 370px;
+  padding: 20px;
+  height: 370px;
+  margin-left: 4vw;
+}
+
+.story_content {
+  background-color: aqua;
+  width: 100%;
+}

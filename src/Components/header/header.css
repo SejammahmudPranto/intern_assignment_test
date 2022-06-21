@@ -43,3 +43,8 @@
     margin-left: auto;
     margin-right: 10px;
 }
+
+.header_image img {
+    height: 577px;
+    width: 481px;
+}

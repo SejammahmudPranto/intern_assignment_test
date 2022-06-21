@@ -1,6 +1,6 @@
 import React from 'react';
 import "./header.css";
-import gifimg from "../../assets/headergif.png";
+import gifimg from "../../assets/headerimggif.gif";
 import ellipse from "../../assets/Group357.png";
 
 const Header = () => {
