@@ -1,0 +1,29 @@
+ .step {
+    height: auto;
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-width: 2px;
+    border: solid;
+    border-color: #E3F4FE;
+    padding: 8px;
+    border-radius: 8px;
+ }
+
+ .step img {
+    width: 55px;
+    height: 55px;
+ }
+
+ .step h4 {
+    font-weight: 500;
+    font-size: 21px;
+    margin: 0;
+ }
+
+ .steps_p {
+    font-size: 14px;
+    font-weight: 400;
+ }
