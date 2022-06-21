@@ -1,0 +1,28 @@
+.success-stories {
+    background-color: #F4F7FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-stories_p {
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+.success-stories h3 {
+    font-size: 47px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.stories {
+    display: flex;
+    gap: 4%;
+    justify-content: space-around;
+}

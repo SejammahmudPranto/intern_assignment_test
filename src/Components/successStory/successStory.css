@@ -1,0 +1,27 @@
+.success-story {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    height: auto;
+}
+
+.success-story_img {
+    width: 295px;
+    height: 204px;
+}
+
+.success-story_icon {
+    margin-top: 5px;
+    width: 96.64px;
+    height: 34px;
+}
+
+.success-story_p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.success-story a {
+    text-decoration: none;
+    color: #477EF7;
+}
