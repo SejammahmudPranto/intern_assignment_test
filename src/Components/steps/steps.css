@@ -3,7 +3,7 @@
     width: 207px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     border-width: 2px;
     border: solid;
@@ -19,8 +19,9 @@
 
  .step h4 {
     font-weight: 500;
-    font-size: 21px;
+    font-size: 19px;
     margin: 0;
+    margin-top: 5px;
  }
 
  .steps_p {
