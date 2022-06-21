@@ -10,3 +10,27 @@
     font-size: 48px;
     font-weight: 800;
 }
+
+.influencers-say {
+    background-color: #F0F0F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    gap: 5%
+}
+
+.influencers-say_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.influencers-say_content p {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}

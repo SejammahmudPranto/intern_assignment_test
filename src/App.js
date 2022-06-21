@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import BecomePart from "./Components/becomePart/BecomePart";
+import Brands from "./Components/brands/Brands";
 import Collaboration from "./Components/Collaboration/Collaboration";
 import Header from "./Components/header/Header";
 import Navbar from "./Components/navbar/Navbar";
@@ -16,6 +17,7 @@ const App = () => {
       <Collaboration/>
       <SuccessStories/>
       <BecomePart/>
+      <Brands/>
     </div>
   );
 };
