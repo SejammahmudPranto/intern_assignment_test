@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import logo from "../../assets/Group4.png";
+import BlackButton from '../blackButton/BlackButton';
 
 const Navbar = () => {
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
         </ul>
         <div className="login_getstarted">
           <p><a href="./login">Login</a></p>
-          <button type="button">Get Started</button>
+          <BlackButton text={"Get Started"}/>
         </div>
     </div>
   )

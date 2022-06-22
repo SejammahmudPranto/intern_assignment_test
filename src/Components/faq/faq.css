@@ -1,0 +1,16 @@
+.faq {
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+    border: 2px;
+    border-color: #E5E5E5;
+    padding: 0 1rem;
+    align-items: center;
+    border-style: solid;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+.faq img {
+    height: 18px;
+    width: 18px;
+}

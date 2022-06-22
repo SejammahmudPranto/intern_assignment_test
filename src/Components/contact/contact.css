@@ -1,0 +1,17 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-bottom: 5rem;
+}
+.contact-ways div {
+    display: flex;
+    gap: 5%;
+    margin: 4rem 0;
+    align-items: center;
+}
+/* .contact-ways img {
+    width: auto;
+    height: auto;
+} */
